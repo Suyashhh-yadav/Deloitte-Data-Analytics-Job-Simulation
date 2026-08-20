@@ -62,7 +62,7 @@ This identifies the location and device type that warrant further operational in
 
 ## Dashboard
 
-![Daikibo Downtime Analysis](Task-1-Operational-Analytics/dashboard.png)
+![Daikibo Downtime Analysis](./dashboard.png)
 
 ## Tools
 
