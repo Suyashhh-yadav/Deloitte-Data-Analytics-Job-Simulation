@@ -1,16 +1,27 @@
 # Task 1 — Operational Downtime Analysis
 
-## Objective
+## Business Objective
 
-Analyze Daikibo machine telemetry data to identify factories with the highest potential downtime and determine which device types contribute to downtime within the selected factory.
+Analyze Daikibo machine telemetry data to identify factories experiencing the highest potential downtime and determine which device types contribute most to downtime.
 
-## Methodology
+The objective was to transform raw telemetry data into an interactive, business-facing Tableau analysis that could support operational investigation.
 
-### 1. Downtime metric
+---
 
-The telemetry data contains a machine `Status` field.
+## Analytical Approach
 
-For this simulation, each `unhealthy` status represents **10 minutes of potential downtime**.
+The analysis followed four steps:
+
+1. Define a potential downtime metric from machine health status.
+2. Compare potential downtime across factories.
+3. Analyze downtime by device type.
+4. Build an interactive dashboard where selecting a factory filters the device-level analysis.
+
+---
+
+## 1. Downtime Metric
+
+Each `unhealthy` machine status represents **10 minutes of potential downtime** for this simulation.
 
 The Tableau calculated field used was:
 
@@ -18,7 +29,6 @@ The Tableau calculated field used was:
 IF [Status] = 'unhealthy' THEN 10
 ELSE 0
 END
-```
 
 The resulting measure was aggregated using `SUM(Unhealthy)`.
 
@@ -50,9 +60,7 @@ This identifies the location and device type that warrant further operational in
 
 ## Dashboard
 
-Add the final Tableau dashboard screenshot below:
-
-`../screenshots/operational-analysis.png`
+![Daikibo Downtime Analysis](Task-1-Operational-Analytics/dashboard.png)
 
 ## Tools
 
