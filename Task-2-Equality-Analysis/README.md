@@ -41,9 +41,7 @@ Examples:
 
 ## Deliverable
 
-The completed workbook is:
-
-`Equality_Table_Completed.xlsx`
+[Download the completed Equality Table](./Equality_Table_Completed.xlsx)
 
 ## Note on Task Wording
 
