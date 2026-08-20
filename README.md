@@ -4,8 +4,6 @@ A client-style data analytics case study completed through the **Deloitte Austra
 
 The simulation focused on transforming operational and employee compensation data into structured, business-facing analysis using **Tableau and Excel**.
 
-> **Context:** This repository documents work completed as part of a Deloitte Australia job simulation on Forage. It represents a simulation exercise and is not Deloitte employment or client work.
-
 ---
 
 ## Business Problems
