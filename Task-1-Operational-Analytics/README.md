@@ -38,6 +38,15 @@ The resulting measure was aggregated using `SUM(Unhealthy)`.
 
 Potential downtime was aggregated by `Factory` to compare operational impact across locations.
 
+| Factory | Potential Downtime |
+|---|---:|
+| daikibo-factory-seiko | **480 minutes** |
+| daikibo-shenzhen | **420 minutes** |
+| daikibo-factory-meiyo | **110 minutes** |
+| daikibo-berlin | **20 minutes** |
+
+**Daikibo Factory Seiko recorded the highest potential downtime at 480 minutes.**
+
 ### 3. Device analysis
 
 Potential downtime was aggregated by `Device Type`.
