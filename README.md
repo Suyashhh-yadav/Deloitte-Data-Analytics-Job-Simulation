@@ -21,11 +21,13 @@ Analyze machine telemetry data to understand potential downtime across Daikibo f
 - Analyzed downtime by device type
 - Built an interactive dashboard where factory selection filters device-level analysis
 
-**Key finding**
+## Dashboard Preview
 
-`daikibo-factory-seiko` recorded the highest potential downtime at **480 minutes** in the analyzed dataset. With Seiko selected, **LaserWelder** represented the recorded downtime in the filtered device-type view.
+![Daikibo Downtime Analysis](Task-1-Operational-Analytics/dashboard.png)
 
-[View Task 1 →](Task-1-Operational-Analytics/README.md)
+**Key finding:** Daikibo Factory Seiko recorded the highest potential downtime at **480 minutes**, with LaserWelder accounting for the recorded downtime in the filtered device-level view.
+
+[Explore Task 1 →](Task-1-Operational-Analytics/README.md)
 
 ---
 
@@ -41,7 +43,7 @@ Classify employee compensation equality scores into three business-defined categ
 
 The classification was implemented in Excel using a reproducible formula rather than manually assigning categories.
 
-[View Task 2 →](Task-2-Equality-Analysis/README.md)
+[Explore Task 2 →](Task-2-Equality-Analysis/README.md)
 
 ---
 
