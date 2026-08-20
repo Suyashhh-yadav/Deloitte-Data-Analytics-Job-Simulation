@@ -1,8 +1,10 @@
 # Task 2 — Equality Score Classification
 
-## Objective
+## Business Objective
 
-Classify employee compensation equality scores into three categories using the business-defined thresholds provided in the simulation.
+Classify employee compensation equality scores into business-defined categories to identify fair, unfair, and highly discriminative compensation outcomes.
+
+---
 
 ## Classification Rules
 
@@ -12,11 +14,14 @@ Classify employee compensation equality scores into three categories using the b
 | -20 to -11 or +11 to +20 | Unfair |
 | Below -20 or above +20 | Highly Discriminative |
 
+---
+
 ## Excel Implementation
 
-The classification was implemented using:
+The classification was implemented using a reproducible Excel formula:
 
-```excel
+```
+excel
 =IF(ABS(C2)<=10,"Fair",IF(ABS(C2)<=20,"Unfair","Highly Discriminative"))
 ```
 
