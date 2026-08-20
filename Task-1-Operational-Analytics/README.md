@@ -25,10 +25,12 @@ Each `unhealthy` machine status represents **10 minutes of potential downtime** 
 
 The Tableau calculated field used was:
 
-```text
+```
+text
 IF [Status] = 'unhealthy' THEN 10
 ELSE 0
 END
+```
 
 The resulting measure was aggregated using `SUM(Unhealthy)`.
 
