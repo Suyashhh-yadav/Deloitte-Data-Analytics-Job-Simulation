@@ -1,0 +1,21 @@
+# Tableau
+*.twb~
+*.tmp
+
+# Excel temporary files
+~$*.xlsx
+*.xlsb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
